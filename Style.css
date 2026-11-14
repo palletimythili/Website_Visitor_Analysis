@@ -1,0 +1,42 @@
+
+body {
+    font-family: Arial;
+    background: #eef2f7;
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    background: #123b60;
+    color: white;
+    padding: 25px;
+}
+
+.container {
+    background: white;
+    margin: 30px auto;
+    padding: 25px;
+    width: 80%;
+    border-radius: 12px;
+}
+
+button {
+    background: #087e8b;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #075b65;
+}
+
+pre {
+    background: #172d46;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    white-space: pre-wrap;
+}

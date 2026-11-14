@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website Visitor Analysis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Website Visitor Analysis Using Hadoop</h1>
+
+    <div class="container">
+        <h2>Visitor Dashboard</h2>
+
+        <button onclick="loadData()">Load Visitor Data</button>
+
+        <h3 id="total">Total Visitors: 0</h3>
+        <h3 id="unique">Unique Visitors: 0</h3>
+
+        <h2>Page Views</h2>
+        <div id="pages"></div>
+
+        <h2>MapReduce Processing</h2>
+        <button onclick="processData()">Run MapReduce</button>
+
+        <pre id="result"></pre>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
